@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		882A7A492353A33600DC4F02 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882A7A482353A33600DC4F02 /* TabBarController.swift */; };
+		889A511923543D2200589645 /* DetectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889A511823543D2200589645 /* DetectionController.swift */; };
 		88CD31142351EF7F008C0055 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CD31132351EF7F008C0055 /* AppDelegate.swift */; };
 		88CD31162351EF7F008C0055 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CD31152351EF7F008C0055 /* SceneDelegate.swift */; };
 		88CD31182351EF7F008C0055 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CD31172351EF7F008C0055 /* ViewController.swift */; };
@@ -14,9 +16,16 @@
 		88CD311E2351EF7F008C0055 /* Tupik.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 88CD311C2351EF7F008C0055 /* Tupik.xcdatamodeld */; };
 		88CD31202351EF82008C0055 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88CD311F2351EF82008C0055 /* Assets.xcassets */; };
 		88CD31232351EF82008C0055 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88CD31212351EF82008C0055 /* LaunchScreen.storyboard */; };
+		88D8716423809E4B000275B8 /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D8716323809E4B000275B8 /* RegistrationController.swift */; };
+		88D8716623809E6C000275B8 /* ConfirmController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D8716523809E6C000275B8 /* ConfirmController.swift */; };
+		88D871682380B441000275B8 /* SendMessageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D871672380B441000275B8 /* SendMessageController.swift */; };
+		88D8716A2380C39C000275B8 /* MessagesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D871692380C39C000275B8 /* MessagesController.swift */; };
+		88D8716C2380C723000275B8 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D8716B2380C723000275B8 /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		882A7A482353A33600DC4F02 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		889A511823543D2200589645 /* DetectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectionController.swift; sourceTree = "<group>"; };
 		88CD31102351EF7F008C0055 /* Tupik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tupik.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88CD31132351EF7F008C0055 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		88CD31152351EF7F008C0055 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +35,11 @@
 		88CD311F2351EF82008C0055 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88CD31222351EF82008C0055 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88CD31242351EF82008C0055 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88D8716323809E4B000275B8 /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
+		88D8716523809E6C000275B8 /* ConfirmController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmController.swift; sourceTree = "<group>"; };
+		88D871672380B441000275B8 /* SendMessageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendMessageController.swift; sourceTree = "<group>"; };
+		88D871692380C39C000275B8 /* MessagesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesController.swift; sourceTree = "<group>"; };
+		88D8716B2380C723000275B8 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +80,13 @@
 				88CD31212351EF82008C0055 /* LaunchScreen.storyboard */,
 				88CD31242351EF82008C0055 /* Info.plist */,
 				88CD311C2351EF7F008C0055 /* Tupik.xcdatamodeld */,
+				882A7A482353A33600DC4F02 /* TabBarController.swift */,
+				889A511823543D2200589645 /* DetectionController.swift */,
+				88D8716323809E4B000275B8 /* RegistrationController.swift */,
+				88D8716523809E6C000275B8 /* ConfirmController.swift */,
+				88D871672380B441000275B8 /* SendMessageController.swift */,
+				88D871692380C39C000275B8 /* MessagesController.swift */,
+				88D8716B2380C723000275B8 /* TableViewCell.swift */,
 			);
 			path = Tupik;
 			sourceTree = "<group>";
@@ -142,8 +163,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				88CD31182351EF7F008C0055 /* ViewController.swift in Sources */,
+				889A511923543D2200589645 /* DetectionController.swift in Sources */,
+				88D8716423809E4B000275B8 /* RegistrationController.swift in Sources */,
 				88CD31142351EF7F008C0055 /* AppDelegate.swift in Sources */,
+				88D8716623809E6C000275B8 /* ConfirmController.swift in Sources */,
 				88CD31162351EF7F008C0055 /* SceneDelegate.swift in Sources */,
+				88D8716C2380C723000275B8 /* TableViewCell.swift in Sources */,
+				88D871682380B441000275B8 /* SendMessageController.swift in Sources */,
+				88D8716A2380C39C000275B8 /* MessagesController.swift in Sources */,
+				882A7A492353A33600DC4F02 /* TabBarController.swift in Sources */,
 				88CD311E2351EF7F008C0055 /* Tupik.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,6 +319,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 25F2R883U6;
 				INFOPLIST_FILE = Tupik/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,7 +327,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.XCode.Tupik;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -309,6 +338,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 25F2R883U6;
 				INFOPLIST_FILE = Tupik/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -316,7 +346,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.XCode.Tupik;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
